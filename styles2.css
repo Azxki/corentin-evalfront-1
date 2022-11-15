@@ -9,8 +9,8 @@
 
 .portrait img{
     position: absolute;
-    width: 30%;
-    height: 98.8%;
+    width: 29.7vw;
+    height: 99vh;
 }
 
 main {
@@ -233,27 +233,11 @@ main {
     * {
         font-size: 35%;
     }
-
-    img {
-        width: 20%;
-    }
-
-    .portrait img{
-        height: 43%;
-    }
 }
 
 @media screen and (max-width: 600px){
     * {
         font-size: 70%;
-    }
-
-    img {
-        width: 30%;
-    }
-
-    .portrait img{
-        height: 59.5%;
     }
 }
 
