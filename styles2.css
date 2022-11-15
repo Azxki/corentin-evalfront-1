@@ -1,0 +1,264 @@
+* {
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+.portrait img{
+    position: absolute;
+    width: 30%;
+    height: 98.8%;
+}
+
+main {
+    border: grey solid 6px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.pos1 {
+    width: 66.66%;
+    background-color: #35BC7A;
+    padding-bottom: 0.7%;
+}
+
+.pos1 h1 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-top: 10%;
+    margin-left: 10%;
+    color: white;
+}
+
+.pos1 p {
+    margin-left: 10%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.7rem;
+    color: white;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding-bottom: 1.5%;
+}
+
+.button1 {
+    border: white 2px solid;
+    width: 30%;
+}
+
+.button1 span {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    margin-left: 1%;
+    margin-top: 10px;
+}
+
+.button1 img {
+    margin-left: 20%;
+}
+
+.button2 {
+    border: white 2px solid;
+    width: 30%;
+    padding-top: 6px;
+}
+
+.button2 span {
+    position: absolute;
+    color: white;
+    margin-left: 1%;
+    margin-top: 6px;
+    font-weight: bold;
+}
+
+.button2 img {
+    margin-left: 20%;
+}
+
+
+.pos2 {
+    width: 33.33%;
+    background-color: #FF9E00;
+    text-align: center;
+}
+
+.pos2 img {
+    margin-top: 20%;
+    width: 20%;
+}
+
+.pos2 p {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.pos3 {
+    width: 33.33%;
+    text-align: center;
+    background-color: #1E8BC4;
+    padding-top: 27px;
+    padding-bottom: 10%;
+}
+
+.pos3 p {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.pos3 img {
+    margin-top: 20%;
+}
+
+.pos4 {
+    width: 33.33%;
+    text-align: center;
+    background-color: #F15A49;
+    padding-bottom: 10%;
+}
+
+.pos4 p {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.pos4 img {
+    margin-top: 20%;
+}
+
+.pos5 {
+    width: 33.33%;
+    text-align: center;
+    background-color: #35BC7A;
+    padding-bottom: 10%;
+    padding-top: 0.8%;
+}
+
+.pos5 p {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.pos5 img {
+    margin-top: 20%;
+}
+
+.pos6 {
+    width: 33.33%;
+    text-align: center;
+    background-color: #F86925;
+    padding-bottom: 8.8%;
+    padding-top: 3.4%;
+}
+
+.pos6 p {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.pos6 img {
+    margin-top: 20%;
+}
+
+.pos7 {
+    width: 33.33%;
+    text-align: center;
+    background-color: #1E8BC4;
+    padding-bottom: 8.8%;
+    padding-top: 0.83%;
+}
+
+.pos7 p {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.pos7 img {
+    margin-top: 20%;
+}
+
+.pos8 {
+    width: 33.33%;
+    text-align: center;
+    background-color: #F86925;
+    padding-bottom: 8.8%;
+    padding-top: 1.2%;
+}
+
+.pos8 p {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.pos8 img {
+    margin-top: 20%;
+}
+
+@media screen and (max-width: 350px){
+    * {
+        font-size: 35%;
+    }
+
+    img {
+        width: 20%;
+    }
+
+    .portrait img{
+        height: 43%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    * {
+        font-size: 70%;
+    }
+
+    img {
+        width: 30%;
+    }
+
+    .portrait img{
+        height: 59.5%;
+    }
+}
+
+@media screen and (min-width: 600px){
+    * {
+        font-size: 100%;
+    }
+}
